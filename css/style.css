@@ -198,7 +198,7 @@ nav .responsive-menu {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 190px;
+    margin-top: 112px;
     margin-left: auto;
     margin-right: auto;
     /* justify-content: center; */
@@ -264,7 +264,7 @@ nav .responsive-menu {
     color: #8A8A8A;
     text-align: center;
     justify-content: center;
-    margin-top: 112px;
+    margin-top: 56px;
     flex-direction: column;
 }
 
@@ -608,13 +608,15 @@ footer .made-by:hover {
 
     nav .responsive-menu {
         display: block;
-        margin-right: 60px;
+        margin-right: 32px;
     }
 
     footer {
         text-align: center;
         justify-content: center;
         border: none;
+        position: static;
+        grid-column: 1/-1;
     }
 
     footer .copyright {
@@ -698,7 +700,7 @@ footer .made-by:hover {
     }
 
     nav .responsive-menu {
-        margin-right: 60px;
+        margin-right: 32px;
         display: block;
     }
 
@@ -718,12 +720,14 @@ footer .made-by:hover {
 
     nav .responsive-menu {
         display: block;
-        margin-right: 60px;
+        margin-right: 48px;
     }
 
     footer {
         text-align: center;
         justify-content: center;
+        position: static;
+        grid-column: 1/-1;
     }
 
     footer .social {
@@ -804,6 +808,8 @@ footer .made-by:hover {
         width: 100%;
         text-align: center;
         justify-content: center;
+        position: static;
+        grid-column: 1/-1;
     }
 
     footer .social {
@@ -843,6 +849,8 @@ footer .made-by:hover {
         width: 100%;
         text-align: center;
         justify-content: center;
+        position: static;
+        grid-column: 1/-1;
     }
 
     footer .social {
