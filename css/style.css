@@ -320,7 +320,6 @@ nav .responsive-menu {
 }
 
 
-
 /* .bg-gallery {
     position: absolute;
     left: 0;
@@ -457,7 +456,7 @@ footer .made-by:hover {
 }
 
 #media-heading {
-    grid-column: 2/11;
+    grid-column: 1/-1;
     margin-top: 178px;
     margin-bottom: 72px;
     text-align: center;
@@ -565,7 +564,7 @@ footer .made-by:hover {
     }
 
     .swiper-pagination-bullet {
-        width: 16px !important;
+        width: 12px !important;
         border-radius: 0;
         background-color: #8a8a8a;
     }
@@ -597,12 +596,12 @@ footer .made-by:hover {
     } */
 
     .swiper-slide {
-        margin-right: 48px !important;
+        /* margin-right: 48px !important; */
         /* width: 409px !important; */
     }
 
     .swiper-pagination-bullet {
-        width: 18px;
+        width: 12px;
         height: 6px;
     }
 
@@ -635,7 +634,6 @@ footer .made-by:hover {
     #media-heading {
         margin-top: 112px;
         margin-bottom: 48px;
-        margin-left: 16px;
     }
 
     .card {
@@ -715,7 +713,7 @@ footer .made-by:hover {
     }
 
     .swiper-slide {
-        margin-right: 48px !important;
+        /* margin-right: 48px !important; */
     }
 
     nav .responsive-menu {
@@ -741,7 +739,6 @@ footer .made-by:hover {
     #media-heading {
         margin-top: 112px;
         margin-bottom: 48px;
-        margin-left: 16px;
     }
 
     .card {
@@ -828,7 +825,6 @@ footer .made-by:hover {
     #media-heading {
         margin-top: 112px;
         margin-bottom: 48px;
-        margin-left: 16px;
     }
 
     .card {
@@ -860,8 +856,21 @@ footer .made-by:hover {
     footer .made-by {
         display: none;
     }
+    .swiper-slide {
+        margin-right: 30px;
+    }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .swiper-slide {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .swiper-slide {
+        margin-right: 30px;
+    }
+}
 
 /* Адаптив */

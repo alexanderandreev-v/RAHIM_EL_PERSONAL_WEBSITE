@@ -178,6 +178,16 @@
         .swiper-slide:hover {
            box-shadow: 0px 5.42382px 2.49391px rgba(0, 0, 0, 0.0269996), 0px 13.0342px 6.63837px rgba(0, 0, 0, 0.0416289), 0px 24.5422px 13.5482px rgba(0, 0, 0, 0.0524502), 0px 43.7792px 25.5934px rgba(0, 0, 0, 0.0607345), 0px 81.8841px 49.2158px rgba(0, 0, 0, 0.0667277), 0px 196px 116px rgba(0, 0, 0, 0.07);
         }
+        @media (min-width: 1200px) and (max-width: 1400px) {
+    .swiper-slide {
+        margin-right: 15px;
+    }
+}
+               @media (min-width: 1400px) {
+    .swiper-slide {
+        margin-right: 30px;
+    }
+}
      </style>
       <script src="js/swiper.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -199,29 +209,30 @@
             maxGlare:       .3       // From 0 - 1.
          });
       </script>
-      <script>
-         var swiper = new Swiper('.swiper-container', {
-            //  effect: 'coverflow',
-             spaceBetween: 30,
-             grabCursor: true,
-             mousewheel: true,
-             centeredSlides: true,
-             slidesPerView: 'auto',
-            //  coverflowEffect: {
-            //      rotate: 25,
-            //      stretch: 0,
-            //      depth: 50,
-            //      modifier: 1,
-            //      slideShadows: true,
-            //  },
-             pagination: {
-                 el: '.swiper-pagination',
-                 clickable: true,
-             },
-             keyboard: {
-                 enabled: true,
-             },
-         });
-      </script>
+<script>
+   var swiper = new Swiper('.swiper-container', {
+      //  effect: 'coverflow',
+       spaceBetween: 0,
+       grabCursor: true,
+       mousewheel: true,
+       centeredSlides: false,
+       slidesPerView: 'auto',
+       loop: true,
+      //  coverflowEffect: {
+      //      rotate: 25,
+      //      stretch: 0,
+      //      depth: 50,
+      //      modifier: 1,
+      //      slideShadows: true,
+      //  },
+       pagination: {
+           el: '.swiper-pagination',
+           clickable: true,
+       },
+       keyboard: {
+           enabled: true,
+       },
+   });
+</script>
    </body>
 </html>
